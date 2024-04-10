@@ -26,9 +26,13 @@ export default {
       },
       backgroundColor: {
         bgNewColor: " rgba(13, 13, 13, 1)",
+        bginputColor: " rgba(255, 255, 255, 0.2)",
       },
       margin: {
         "21%": "0 21%",
+      },
+      height: {
+        "28rem": "28rem",
       },
     },
   },
