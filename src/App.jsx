@@ -2,6 +2,7 @@ import Hero from "./components/Hero/Hero";
 import Intuitive_interface from "./components/Intuitive_interface/Intuitive_interface";
 import Asked from "./components/asked/Asked";
 import Card_section from "./components/card_section/card_section";
+import Footer from "./components/footer/Footer";
 import Logo_page from "./components/logo_page/Logo_page";
 import Message from "./components/message/Message";
 
@@ -21,6 +22,7 @@ function App() {
         <Asked />
       </div>
       <Message />
+      <Footer />
     </div>
   );
 }
