@@ -27,6 +27,9 @@ export default {
       backgroundColor: {
         bgNewColor: " rgba(13, 13, 13, 1)",
       },
+      margin: {
+        "21%": "0 21%",
+      },
     },
   },
   plugins: [],
