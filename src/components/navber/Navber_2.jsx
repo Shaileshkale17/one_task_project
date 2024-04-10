@@ -35,7 +35,7 @@ function Navber_2() {
           {DataLink.map((link) => (
             <li
               key={link.name}
-              className="md:inline-block md:ml-8 text-xl md:my-0 my-7 text-gray-100 md;z-auto z-[-1] left-0 w-full w-auto md:pl-0 pl-9 translate-all duration-500 ease-in ">
+              className="md:inline-block md:ml-[0.5rem] text-xl md:text-[0.7rem] md:my-0 my-7 text-gray-100 md;z-auto z-[-1] left-0 w-full w-auto md:pl-0 pl-9 translate-all duration-500 ease-in ">
               <Link
                 to={link.link}
                 className="text-gray-100 hover:opacity-5 duration-500">

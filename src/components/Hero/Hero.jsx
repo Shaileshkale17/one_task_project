@@ -1,10 +1,14 @@
 import React from "react";
 import arrow from "../../assets/Icons=Arrow-w.svg";
 import Button from "../Button/Button";
+import bg_logo from "../../assets/border-2.png";
+import icon_1 from "../../assets/message 1.svg";
+import icon_2 from "../../assets/cursor 2.svg";
+
 const Hero = () => {
   return (
     <div className=" relative w-96 h-80 bg-gradient-to-b from-black via-purple-800 to-purple-200 border top-36 border-black shadow-md w-full h-screen">
-      <div className="h-4/5 container flex  text-white items-center  justify-center flex-col gap-6 h-80 my-16">
+      <div className=" h-4/5 relative container flex  text-white items-center  justify-center flex-col gap-6 h-80 my-16">
         {/* <div className="flex flex-col"> */}
         <div className="">
           <p
@@ -18,19 +22,23 @@ const Hero = () => {
           </p>
         </div>
         <div className="">
-          <h1 className="text-9xl m-auto text-center w-6/12">
+          <h1 className="text-9xl font-black  m-auto text-center w-6/12 font-custom ">
             One Task at a Time
           </h1>
         </div>
         <div className="w-50">
-          <p className="w-4/12 px-12 m-auto text-center text-2xl text-justify">
+          <p className="w-[28%]   m-auto text-center text-2xl text-justify  md:px-0 px-12">
             Celebrate the joy of accomplishment with an app designed to track
             your progress, motivate your efforts, and celebrate your successes.
           </p>
         </div>
-        <Button title="Get for free" />
+        <Button title="Get for free" className="-z-1" />
       </div>
-      <div class="box-border absolute w-[2344px] h-[1014px]  "></div>
+
+      <img src={icon_1} alt="" className="absolute top-16 right-80" />
+      <img src={icon_2} alt="" className=" absolute top-44 left-21rem" />
+
+      <img src={bg_logo} alt="" className="w-full -z-0 pt-6  " />
     </div>
   );
 };
