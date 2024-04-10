@@ -19,7 +19,7 @@ const Logo_page = () => {
       <p className="text-center text-gray-600">
         Trusted by the world’s most innovative teams
       </p>
-      <div className="flex justify-around">
+      <div className="flex justify-around flex-wrap">
         {imgaeData.map((img, i) => (
           <img src={img.images} />
         ))}

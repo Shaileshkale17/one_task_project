@@ -12,6 +12,21 @@ export default {
       inset: {
         "21rem": "21rem",
       },
+      fontSize: {
+        "54px": "54px",
+      },
+      fontWeight: {
+        font700: "700",
+      },
+      gap: {
+        "14px": "14px",
+      },
+      border: {
+        solid1px: "1px solid rgba(255, 255, 255, 0.2)",
+      },
+      backgroundColor: {
+        bgNewColor: " rgba(13, 13, 13, 1)",
+      },
     },
   },
   plugins: [],
