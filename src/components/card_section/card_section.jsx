@@ -21,7 +21,7 @@ const Card_section = () => {
   ];
 
   return (
-    <div className="h-full w-full flex flex-col gap-24 justify-center items-center">
+    <div className="h-full pb-20 w-full flex flex-col gap-24 justify-center items-center">
       <div>
         <h1 className="font-custom font-font700 text-white text-center text-54px ">
           Everything you need
@@ -32,7 +32,7 @@ const Card_section = () => {
           quickly.
         </p>
       </div>
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap gap-8 mix-md:flex-col mix-md:items-center mix-md:content-center mix-md:justify-center">
         {cardData.map((task, i) => (
           <Crad
             key={i}
