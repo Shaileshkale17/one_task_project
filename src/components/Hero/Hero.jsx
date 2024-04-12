@@ -12,7 +12,7 @@ const Hero = () => {
         {/* <div className="flex flex-col"> */}
         <div className="">
           <p
-            className="flex text-sm px-3 py-2 rounded-lg border-solid  border-gray-200 "
+            className="flex text-sm px-3 py-2 rounded-lg border-solid  border-gray-200  text-gray-600"
             style={{ border: "2px solid rgba(34, 34, 34, 1)" }}>
             Version 2.0 is here
             <span className="text-white mx-2" style={{ fontFamily: "Inter" }}>
