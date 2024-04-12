@@ -14,7 +14,7 @@ const Intuitive_interface = () => {
           task at a time.
         </p>
       </div>
-      <img src={Image_int} alt="image not found !" className="w-4/5" />
+      <img src={Image_int} alt="image not found !" className="w-11/12" />
     </div>
     // </div>
   );
