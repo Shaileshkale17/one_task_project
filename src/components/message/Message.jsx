@@ -4,7 +4,7 @@ import helix from "../../assets/helix2 1.svg";
 import emojistar from "../../assets/emojistar 1.svg";
 const Message = () => {
   return (
-    <div className="overflow-hidden lg:overflow-auto h-screen pb-20 w-full flex flex-col justify-center items-center gap-14 relative ">
+    <div className="overflow-hidden lg:overflow-auto h-full md:h-screen pb-20 w-full flex flex-col justify-center items-center gap-14 relative ">
       <div className=" flex justify-center items-center flex-col">
         <h1 className="font-custom text-[26px] md:text-54px font text-gray-100 font-font700">
           Get instant access
