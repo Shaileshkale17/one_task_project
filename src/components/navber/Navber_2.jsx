@@ -9,11 +9,11 @@ import Button from "../Button/Button";
 function Navber_2() {
   const [open, setOpen] = useState(false);
   const DataLink = [
-    { name: "Home", link: "/" },
-    { name: "Service", link: "/services" },
     { name: "About", link: "/about" },
-    { name: "Blog", link: "/blog" },
-    { name: "Contact", link: "/contact" },
+    { name: "Features", link: "/features" },
+    { name: "Customers", link: "/customers" },
+    { name: "Updates", link: "/updates" },
+    { name: "Help", link: "/help" },
   ];
 
   return (
@@ -38,7 +38,7 @@ function Navber_2() {
           {DataLink.map((link) => (
             <li
               key={link.name}
-              className="md:inline-block ml-0 lg:ml-[0.5rem] text-xl md:my-0 mb-7 text-gray-100 z-10">
+              className="md:inline-block ml-0 lg:ml-[0.5rem] text-xl md:text-base lg:text-xl md:my-0 mb-7 text-gray-100 z-10">
               <Link
                 to={link.link}
                 className="text-gray-100 hover:text-gray-400 duration-500">
