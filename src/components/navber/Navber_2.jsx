@@ -33,7 +33,7 @@ function Navber_2() {
         </div>
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 gap-5 items-center  ${
-            open ? "block h-[21rem] bg-bginputColor px-12" : "hidden h-0"
+            open ? "block h-[21rem] bg-bginputColor  px-12" : "hidden h-0"
           }`}>
           {DataLink.map((link) => (
             <li
@@ -41,7 +41,7 @@ function Navber_2() {
               className="md:inline-block ml-0 lg:ml-[0.5rem] text-xl md:my-0 mb-7 text-gray-100 z-10">
               <Link
                 to={link.link}
-                className="text-gray-100 hover:opacity-5 duration-500">
+                className="text-gray-100 hover:text-gray-400 duration-500">
                 {link.name}
               </Link>
             </li>
