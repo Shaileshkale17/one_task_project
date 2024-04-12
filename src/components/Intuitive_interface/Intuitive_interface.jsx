@@ -5,7 +5,7 @@ const Intuitive_interface = () => {
     //
     <div className="h-full pb-20 w-full flex flex-col gap-24 justify-center items-center">
       <div className="flex text-center flex-col">
-        <h1 className="text-gray-100 text-54px font-custom font-font700">
+        <h1 className="text-gray-100 text-[36px] md:text-54px font-custom font-font700">
           Intuitive interface
         </h1>
         <p className="text-gray-100 m-auto w-8/12 ">

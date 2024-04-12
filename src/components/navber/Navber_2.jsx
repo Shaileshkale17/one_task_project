@@ -14,7 +14,7 @@ function Navber_2() {
     { name: "Contact", link: "/contact" },
   ];
   return (
-    <div className="shadow-md w-full fixed top-8 left-0">
+    <div className="shadow-md w-full fixed top-1 md:top-8 left-0 z-10">
       <div className="md:flex items-center justify-between py-4 md:px-10 py-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center  text-gray-100 ">
           <span className="text-3xl mr-1 pt-2 flex items-center gap-3">
@@ -24,7 +24,7 @@ function Navber_2() {
           </span>
         </div>
         <div
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+          className="text-3xl absolute right-8 top-14 cursor-pointer md:hidden"
           onClick={() => setOpen(!open)}>
           {open ? <span>&#x2715;</span> : <img src={meun} />}
         </div>

@@ -21,18 +21,18 @@ const Card_section = () => {
   ];
 
   return (
-    <div className="h-full pb-20 w-full flex flex-col gap-24 justify-center items-center">
-      <div>
-        <h1 className="font-custom font-font700 text-white text-center text-54px ">
+    <div className="h-full pb-20 w-full flex flex-col lg:flex-wrap gap-24 justify-center items-center">
+      <div className="flex flex-col items-center">
+        <h1 className="font-custom font-font700 text-white text-center text-[32px] md:text-54px ">
           Everything you need
         </h1>
-        <p className="text-gray-100 text-center">
+        <p className="text-gray-100 text-center w-4/5">
           Enjoy customizable lists, team work tools, and smart tracking all in
           one place. Set tasks, get reminders, and see your progress simply and
           quickly.
         </p>
       </div>
-      <div className="flex flex-wrap gap-8 mix-md:flex-col mix-md:items-center mix-md:content-center mix-md:justify-center">
+      <div className="flex flex-col items-center content-center justify-center lg:flex-wrap gap-8 lg:flex-row    ">
         {cardData.map((task, i) => (
           <Crad
             key={i}

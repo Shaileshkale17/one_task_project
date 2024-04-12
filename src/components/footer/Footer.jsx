@@ -17,8 +17,8 @@ const Footer = () => {
   return (
     <>
       <hr className="bg-gray-600" />
-      <footer className="flex justify-between p-5 ">
-        <p className="text-gray-600">
+      <footer className="flex justify-center gap-1  p-5 flex-wrap md:justify-between">
+        <p className="text-gray-600 text-[0.7rem]">
           @ 2024 Your Company, Inc. All rights reserved
         </p>
         <div className="flex gap-2">
