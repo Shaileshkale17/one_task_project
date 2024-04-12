@@ -33,7 +33,7 @@ function Navber_2() {
         </div>
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 gap-5 items-center  ${
-            open ? "block h-[21rem] bg-gray-500 px-12" : "hidden h-0"
+            open ? "block h-[21rem] bg-bginputColor px-12" : "hidden h-0"
           }`}>
           {DataLink.map((link) => (
             <li
