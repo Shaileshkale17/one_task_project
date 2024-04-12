@@ -8,7 +8,7 @@ import icon_2 from "../../assets/cursor 2.svg";
 const Hero = () => {
   return (
     <div className=" overflow-y-visible   md:overflow-x-hidden lg:md:overflow-x-clip  relative  bg-gradient-to-b from-black via-purple-800 to-purple-200 border top-36 border-black shadow-md w-full h-full">
-      <div className=" h-4/5 relative container flex  text-white items-center   justify-center flex-col gap-[1.9rem] md:mt-[136px] md:gap-0 lg:gap-[3.9rem]  h-80 my-16">
+      <div className=" h-4/5 relative  flex  text-white items-center   justify-center flex-col gap-[1.9rem] md:mt-[136px] md:gap-0 lg:gap-[3.9rem]  h-80 my-16">
         {/* <div className="flex flex-col"> */}
         <div className="">
           <p
