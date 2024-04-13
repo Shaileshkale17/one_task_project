@@ -15,9 +15,9 @@ function Navber_2() {
     { name: "Updates", link: "/updates" },
     { name: "Help", link: "/help" },
   ];
-
+  // fixed -> absolute
   return (
-    <div className="shadow-md w-full fixed top-1 md:top-8 left-0 z-10 ">
+    <div className="shadow-md w-full absolute top-1 md:top-8 left-0 z-10 ">
       <div className="md:flex md:items-center md:justify-between  md:inset-x-2 lg:px-10 py-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-100">
           <span className="text-3xl mr-1 pt-2 flex items-center gap-3">
